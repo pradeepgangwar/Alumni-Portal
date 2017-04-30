@@ -25,7 +25,7 @@ function login(username,password) {
 				
 			}
 		}
-		xmlhttp.open("POST","http://localhost/alumni/check.php",true);
+		xmlhttp.open("POST","http://localhost/github/Alumni-Portal/check.php",true);
 		xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
 		xmlhttp.send("roll="+username+"&pass="+password);
