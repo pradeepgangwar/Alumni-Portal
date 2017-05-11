@@ -16,6 +16,8 @@ session_start();
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/994d7c72ea.js"></script>
   <script src = "js/bootbox.js"></script>
+
+  <title>Alumni Data Portal</title>
 <style>
 #bar_blank {
   border: solid 1px #000;
@@ -134,7 +136,7 @@ session_start();
   </div>
 
   <div class="form-group">
-    <label for="email" class="col-sm-2 control-label">Personal E-mail id *:</label>
+    <label for="email" class="col-sm-2 control-label">Personal E-mail id (other than institute's email-id) *:</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" id="email" name="mail" required>
     </div>
